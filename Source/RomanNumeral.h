@@ -13,5 +13,6 @@
  * @param output String buffer in which to store the converted Roman numeral.
  */
 void RomanNumeral_Convert(unsigned input, char *output);
+void helper(char* output, int placevalue, char* small, char* five, char* big);
 
 #endif
